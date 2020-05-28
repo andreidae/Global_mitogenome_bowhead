@@ -1,0 +1,5 @@
+# 2020-05-28
+
+DIR=/shared/volume/hologenomics/data/andreaac/bowhead/Global_mitogenome/partition_finder
+
+./Fasta2aligned_genes.sh Bmys_42seq16389bp_aligned 42 38 $DIR Bmys_42ind_aligned_genes
