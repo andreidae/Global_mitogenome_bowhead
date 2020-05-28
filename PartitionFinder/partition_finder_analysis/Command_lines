@@ -1,0 +1,6 @@
+## 2020-05-28
+
+module load python/v2.7.12
+module load PartitionFinder/v2.1.1
+
+/groups/hologenomics/software/xsbatch -c 16 -J PF_run --mem-per-cpu 4000 --time 2-00:00:00 -- /groups/hologenomics/software/PartitionFinder/v2.1.1/PartitionFinder.py partition_finder.cfg -p 16
